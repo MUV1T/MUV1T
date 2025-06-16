@@ -1949,7 +1949,7 @@
             playSound('click');
             const subject = encodeURIComponent("Laporan Pelanggaran Lalu Lintas");
             const body = encodeURIComponent("Deskripsikan pelanggaran yang Anda saksikan di sini...\n\nLokasi: \nWaktu: \n\nTerima kasih telah melapor!");
-            window.location.href = `mailto:antas.resdmk@gmail.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:lantas.resdmk@gmail.com?subject=${subject}&body=${body}`;
         }
         
         function openEducation() {
